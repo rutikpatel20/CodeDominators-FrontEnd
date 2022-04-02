@@ -1,0 +1,85 @@
+.eventdisplay {
+  display: flex;
+  flex-direction: row;
+}
+/* .eventposter {
+  height: 90vh;
+} */
+
+.eventdetails {
+  /* height: 90vh; */
+  padding: 10px;
+}
+
+.bookingbtn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.row > * {
+  flex-shrink: unset;
+}
+
+.carousel .carousel-item {
+  height: 520px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 520px;
+}
+
+.eventwrap {
+  margin: 10px;
+  border: 1px solid lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+}
+/* Header and Footer CSS */
+.datetime {
+  display: flex;
+}
+.iconstyle {
+  color: orange;
+  padding-right: 10px;
+}
+.eventtime {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+.icons i {
+  font-size: 1.5rem;
+  color: orange;
+}
+
+.fa-brands {
+  padding: 0 10px;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0px;
+  font-size: 1.5rem;
+  color: gray;
+}
+.fa-brands:hover {
+  color: orange;
+}
+
+.btn-primary {
+  background: orange !important;
+  border: orange !important;
+}
+
+* a {
+  text-decoration: none !important;
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./EventDisplay.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Event Display</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light d-flex py-3">
+          <div class="container-fluid justify-content-start">
+            <button
+              class="navbar-toggler me-3"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Booth Zone</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">About</a>
+               
+              </div>
+
+              <div class="icons ms-auto d-flex">
+                <button class="btn btn-primary me-2">Sign Up</button>
+                <button class="btn btn-primary">Login</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container mt-5">
+      <div class="eventdisplay row">
+        <div class="eventposter col-md-4">
+          <!-- <img src="./e_poster.jpeg" alt="avatar" width="100%" height="100%" /> -->
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./e_poster.jpeg" width="100%" height="100%"  alt="avatar"/>
+              </div>
+              <div class="carousel-item">
+                <img src="./e_poster.jpeg"width="100%" height="100%"  alt="avatar"/>
+              </div>
+              <div class="carousel-item">
+                <img src="./e_poster.jpeg"width="100%" height="100%" alt="avatar"/>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="eventdetails col-md-8">
+          <h3>Arijit Singh Concert</h3>
+          <div class="datetime eventtime d-flex">
+            <div class="calander">
+                <a class="fas fa-calendar iconstyle"> </a>
+                <span> 17th April 2022</span>
+            </div>
+            <div class="clock">
+                <a class="fas fa-clock iconstyle"></a> <span>From 11:00 AM - 07:00 PM
+                </div></span>
+            </div> 
+          <div class="venue">
+            <a class="fas fa-map-marker-alt mt-3 iconstyle"></a><span> Coomaraswamy Hall, Kala Ghoda</span>
+          </div>
+          <hr />
+          <div class="row">
+            <h4 class="col-md-12">Event Details</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus nesciunt rerum repudiandae itaque, minus consequatur
+              sapiente maiores placeat ad tempore obcaecati nostrum libero
+              recusandae sit velit cum est. Adipisci, distinctio.
+            </p>
+          </div>
+          <hr />
+
+          <div class="row">
+            <h4 class="col-md-12">Stall Details</h4>
+            <div>Total Stalls : 10</div>
+            <div class="d-flex row">
+                <div class=" col-lg-4">
+                    <div class="wrap eventwrap">
+                        <p>Stall Category : Beverages</p>
+                        <p>Stall Size : 10 * 10</p>
+                        <p>Best Price : <span>&#8377;</span>1,500</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="wrap eventwrap">
+                        <p>Stall Category : Beverages</p>
+                        <p>Stall Size : 10 * 10</p>
+                        <p>Best Price : <span>&#8377;</span>1,500</p>
+                    </div>
+                </div>
+                <div  class="col-lg-4">
+                    <div class="wrap eventwrap">
+                        <p>Stall Category : Beverages</p>
+                        <p>Stall Size : 10 * 10</p>
+                        <p>Best Price : <span>&#8377;</span>1,500</p>
+                    </div>
+                </div>
+                <div  class="col-lg-4">
+                    <div class="wrap eventwrap">
+                        <p>Stall Category : Beverages</p>
+                        <p>Stall Size : 10 * 10</p>
+                        <p>Best Price : <span>&#8377;</span>1,500</p>
+                    </div>
+                </div>
+                <div  class="col-lg-4">
+                    <div class="wrap eventwrap">
+                        <p>Stall Category : Beverages</p>
+                        <p>Stall Size : 10 * 10</p>
+                        <p>Best Price : <span>&#8377;</span>1,500</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="row bookingbtn">
+            <button
+              type="button"
+              class="btn col-md-6 m-3"
+              style="background-color: orange !important; color: white"
+            >
+              Book Ticket
+            </button>
+            <button
+              type="button"
+              class="btn col-md-6 m-3"
+              style="background-color: orange !important; color: white"
+            >
+              Book Booth
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <section class="py-4">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Booth Zone</h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                qui?
+              </p>
+              <p class="m-0"><span class="bold">Phone</span>: 108</p>
+              <p class="m-0"><span class="bold">Email</span>: abc@gmail.com</p>
+            </div>
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Our Services</h6>
+              <p>
+                <a href="#!" class="text-reset">Angular</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Vue</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Laravel</a>
+              </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Join Our Newsletter</h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, repellendus.
+              </p>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Email" />
+                <div class="input-group-append">
+                  <span
+                    class="btn btn-primary input-group-text"
+                    id="basic-addon2"
+                    >Subscribe</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+        <div class="container d-flex flex-column flex-md-row">
+          <div class="disclaimer mb-4 mb-md-0">
+            © Copyright:
+            <a class="text-reset fw-bold px-1" href="#"> Booth Zone </a> all
+            rights reserved.
+          </div>
+
+          <div class="icons ms-md-auto text-center">
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-facebook"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-skype"></a>
+            <a href="#" class="fa-brands fa-linkedin"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
